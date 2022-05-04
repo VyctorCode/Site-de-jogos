@@ -5,11 +5,16 @@
   margin: 0%  
 }
 
+a{
+    text-decoration: none
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
 
 img{
     margin: 0px;
     border: 0px;
+    display: inline-block;
 }
 
 body{
@@ -59,6 +64,7 @@ li{
     padding: 8px;
     margin: 5px;
     border-radius: 5px;
+    transition: 0.5s;
 }
 
 .linck{
@@ -69,6 +75,7 @@ li{
 
 li:hover{
     background-color: #074073;
+    transition: 0.5s;
 }
 
 .control01{
@@ -90,11 +97,41 @@ li:hover{
     margin-top: -35%;
     min-width: 50px;
     max-width: 200px;
+    padding: 0%;
+    display: inline-block;
 }
+
+/*Resposividade*/
+
+@media screen {
+    
+}
+
+/*Resposividade*/
 
 .aranha{
     position: relative;
     margin: 0%;
+    
+}
+
+.control1{
+    animation: aranha 1s infinite;
+
+}
+
+@keyframes aranha{
+    50% {
+        transform: translatey(-10px);
+    }
+
+    0% {
+        transform: translatey(0px);
+    }
+
+    100% {
+        transform: translate(7);
+    } 
 }
 
 main{
@@ -110,7 +147,7 @@ main{
     padding: 10px;
 }
 
-.conteiner{
+div{
     min-width: 50px;
     max-width: 300px;
     width: 110px;
@@ -120,6 +157,94 @@ main{
     margin: 25px;
     position: relative;   
     display: inline-table;
-    align-items: center;
+    align-items: center; 
     
+    border-radius: 5px;
+    border: solid 2px rgb(9, 161, 231); 
+    transition: 0.5s;   
+}
+
+/*Animação das clases conteiner!*/
+
+
+div:hover{
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+/*Seleção de jogos*/
+
+.conteiner1{
+    background-image: url(https://res.vigoo.com/assets/highwayracer/NeEWJj1616648431_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner2{
+    background-image: url(https://res.vigoo.com/assets/highwayracer3d/iiNDbg1614657084_png.webp);
+    background-size: cover;
+}
+
+.conteiner3{
+    background-image: url(https://res.vigoo.com/assets/fireboyandwatergirl2lighttemple/kOv54q1634974819_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner4{
+    background-image: url(https://res.vigoo.com/assets/fireboyandwatergirl5elements/krk8d11634974217_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner5{
+    background-image: url(https://res.vigoo.com/assets/motox3mbikeracegame/qdoz5r1611287036_png.webp);
+    background-size: cover;
+}
+
+.conteiner6{
+    background-image: url(https://res.vigoo.com/assets/goingballs/hBD0hA1642671070_png.webp);
+    background-size: cover;
+}
+
+.conteiner7{
+    background-image: url(https://res.vigoo.com/assets/bounceball/UUj7mL1577351676_png.webp);
+    background-size: cover;
+}
+
+.conteiner8{
+    background-image: url(https://res.vigoo.com/assets/cuttherope2/rvkuAT1635146306_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner9{
+    background-image: url(https://res.vigoo.com/assets/fruitninja/1TheMu1638868205_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner10{
+    background-image: url(https://res.vigoo.com/assets/happyglass2/14FezW1628575966_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner11{
+    background-image: url(https://res.vigoo.com/assets/stickmanhookrescue/Uwrczw1630130285_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner12{
+    background-image: url(https://res.vigoo.com/assets/hungrysharkarena/V75Lyg1636100892_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner13{
+    background-image: url(https://res.vigoo.com/assets/puzzlebobble/9DPCae1638872629_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner14{
+    background-image: url(https://res.vigoo.com/assets/dinosaursniping/oE3tuB1616647662_jpeg.webp);
+    background-size: cover;
+}
+
+.conteiner15{
+    background-image: url(https://res.vigoo.com/assets/neonbiker/5aNYy51617010679_jpeg.webp);
+    background-size: cover;
 }
