@@ -3,10 +3,16 @@
 *{
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0%  
+
+}
+
+html , body{
+    max-height: 100vh;
 }
 
 a{
-    text-decoration: none
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@700&display=swap');
@@ -247,4 +253,13 @@ div:hover{
 .conteiner15{
     background-image: url(https://res.vigoo.com/assets/neonbiker/5aNYy51617010679_jpeg.webp);
     background-size: cover;
+}
+
+.baixo{
+    background: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+    
 }
