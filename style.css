@@ -116,8 +116,12 @@ li:hover{
 
 /*Resposividade*/
 
-@media screen {
-    
+@media screen and (max-width: 768px) {
+    main{
+        width: 100%;
+        height: 100vh;
+        padding: 0;
+    }
 }
 
 /*Resposividade*/
