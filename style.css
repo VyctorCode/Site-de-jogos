@@ -267,11 +267,14 @@ footer{
 
 /*Resposividade*/
 
+
 @media (max-width: 500px){
-    ul{
-    
-    }
-    
+
+
+    li{
+        font-size: 10px;
+        padding: 5px;
+    }       
 }
 
 @media (max-width: 1000px){
